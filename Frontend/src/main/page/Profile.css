@@ -1,0 +1,137 @@
+
+                        /* Profile.js style area */
+.profile_head {
+    padding: 0 20px;
+}
+.profile_bodyContaint {
+    display: flex;
+    background-color: #f5f5f5;
+    padding: 20px 10px;
+}
+.profile_bodyLeftCol {
+    width: 335px;
+}
+
+
+                        /* Head.js style area */
+.hading_containt {
+    display: flex;
+    --tw-bg-opacity: 1;
+    background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+.hading_text {
+    font-size: 50px;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    padding-left: 2.5rem/* 40px */;
+}
+
+
+                        /* ProfileSidebar.js style area */
+
+
+
+                        /* ProfileContent.js syle area */
+.body_formContaint {
+    width: 100%;
+}
+.body_formEditSection {
+    display: flex;
+    flex-direction: column;
+}
+.form_profileImage {
+    position: relative;
+    width: 100%;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: lightblue;
+    box-shadow: #f5f5f5;
+    margin: auto;
+}
+.form_profileImage img {
+    width: 100%;
+    height: 100%;
+}
+.profileImage_upload {
+    position: absolute;
+    bottom: 0;
+    height: 33.333333%;
+    background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+    --tw-bg-opacity: 0.5;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+.profileImage_upload p {
+    font-size: 0.875rem /* 14px */;
+    line-height: 1.25rem /* 20px */;
+    padding: 0.25rem /* 4px */;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.profileImage_upload input {
+    display: none;
+}
+.form_bodySection {
+    width: 100%;
+    padding-left: 5rem /* 80px */;
+    padding-right: 5rem /* 80px */;
+}
+.form_bodySection form {
+    display: flex;
+    flex-direction: column;
+}
+.form_nameEmail,
+.form_numberZip,
+.form_passwordConfirm {
+    width: 100%;
+    display: flex;
+    padding-bottom: 0.75rem /* 12px */;
+}
+.form_field {
+    width: 50%;
+}
+.form_field label {
+    display: block;
+    padding-bottom: 0.5rem /* 8px */;
+    font-size: large;
+}
+.form_field input {
+    width: 90%;
+}
+.passwordConfirm {
+    display: flex;
+}
+.passwordConfirm span {
+    display: flex;
+    font-size: 1.25rem/* 20px */;
+    line-height: 1.75rem/* 28px */;
+    cursor: pointer;
+    padding: 2px 3px;
+    margin: 0 -25px;
+    background-color: #e2f5f5;
+}
+button, .add_button {
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem/* 16px */;
+    padding-top: 0.25rem/* 4px */;
+    padding-bottom: 0.25rem/* 4px */;
+    max-width: 120px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+    cursor: pointer;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255 / var(--tw-text-opacity));
+    font-size: 1.25rem/* 20px */;
+    line-height: 1.75rem/* 28px */;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 9999px;
+}
+button:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgb(185 28 28 / var(--tw-bg-opacity));
+}
